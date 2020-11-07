@@ -21,7 +21,19 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index() {
+    public function index()
+    {
         return view('admin.home');
+    }
+
+    public function blank()
+    {
+        return view('admin.blank');
+    }
+
+    public function changeLang($lang)
+    {
+        session(['lang' => $lang]);
+        return redirect()->back();
     }
 }
