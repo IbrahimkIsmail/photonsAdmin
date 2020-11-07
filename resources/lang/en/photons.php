@@ -1,4 +1,6 @@
 <?php
 return [
-    'name' =>'فوتونز لاب'
+    'name' =>'Photons Lab',
+    'site_management' =>'Site management',
+    'site_preview' =>'Site Preview',
 ];

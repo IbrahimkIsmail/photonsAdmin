@@ -11,8 +11,10 @@
                     <li class="menu-item menu-item-open menu-item-here menu-item-submenu menu-item-rel"
                         data-menu-toggle="click" aria-haspopup="true">
                         <div style="margin: 10px;">
-                            <a style="font-size: 2rem;">Site management</a> <a
-                                style="font-size: 1rem;">Photons Lab</a>
+                            <a style="font-size: 2rem;">{{__('photons.site_management')}}</a> <a
+                                style="font-size: 1rem;">
+                                {{__('photons.name')}}
+                            </a>
                         </div>
                     </li>
                     <li class="menu-item menu-item-open menu-item-here menu-item-submenu menu-item-rel"
@@ -23,7 +25,7 @@
                                 <i class="flaticon-home"></i>
                                 <!--end::Svg Icon-->
                             </span>
-                            <span class="menu-text">Site Preview</span>
+                            <span class="menu-text">{{__('photons.site_preview')}}</span>
                         </a>
                     </li>
                 </ul>
@@ -70,7 +72,7 @@
                              style="background-image: url({{asset('adminAssets/media/misc/bg-1.jpg')}})">
                             <!--begin::Title-->
                             <h4 class="d-flex flex-center rounded-top">
-                                <span class="text-white">User Notifications</span>
+                                <span class="text-white">{{__('photons.user_notifications')}}</span>
                                 <span
                                     class="btn btn-text btn-success btn-sm font-weight-bold btn-font-md ml-2">23 new</span>
                             </h4>
@@ -352,7 +354,7 @@
                 <div class="btn btn-icon w-auto btn-clean d-flex align-items-center btn-lg px-2"
                      id="kt_quick_user_toggle">
                                 <span
-                                    class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi</span>
+                                    class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">{{__('photons.hi')}}</span>
                     <span
                         class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{Auth::guard('admin')->user()->name}}</span>
                     <img class="rounded-circle" alt="Pic" width="35" height="35"

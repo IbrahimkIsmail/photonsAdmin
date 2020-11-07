@@ -6,7 +6,9 @@
         <div class="text-dark order-2 order-md-1">
             <span class="text-muted font-weight-bold mr-2"> {{\Carbon\Carbon::now()->year}}&nbsp;&copy;</span>
             <a href="https://techzone.ps" target="_blank"
-               class="text-dark-75 text-hover-primary">Photons Lab</a>
+               class="text-dark-75 text-hover-primary">
+                {{__('photons.name')}}
+            </a>
         </div>
         <!--end::Copyright-->
         <!--begin::Nav-->
