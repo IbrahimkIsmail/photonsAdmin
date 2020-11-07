@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{app()->getlocale()}}" dir="ltr">
+<html lang="{{app()->getlocale()}}" dir="{{session('direction','ltr')}}">
 <!--begin::Head-->
 <head>
     <base href="">
@@ -26,23 +26,23 @@
 @yield('styles')
 <!--end::Page Vendors Styles-->
     <!--begin::Global Theme Styles(used by all pages)-->
-    <link href="{{ asset('/adminAssets/plugins/global/plugins.bundle.rtl.css') }}" rel="stylesheet"
+    <link href="{{ asset('/adminAssets/plugins/global/plugins.bundle'.session('direction_link').'.css') }}" rel="stylesheet"
           type="text/css"/>
-    <link href="{{ asset('/adminAssets/plugins/custom/prismjs/prismjs.bundle.rtl.css') }}"
+    <link href="{{ asset('/adminAssets/plugins/custom/prismjs/prismjs.bundle'.session('direction_link').'.css') }}"
           rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('/adminAssets/css/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ asset('/adminAssets/css/style.bundle'.session('direction_link').'.css') }}" rel="stylesheet" type="text/css"/>
     <!--end::Global Theme Styles-->
     <!--begin::Layout Themes(used by all pages)-->
-    <link href="{{ asset('/adminAssets/css/themes/layout/header/base/light.rtl.css') }}" rel="stylesheet"
+    <link href="{{ asset('/adminAssets/css/themes/layout/header/base/light'.session('direction_link').'.css') }}" rel="stylesheet"
           type="text/css"/>
-    <link href="{{ asset('/adminAssets/css/themes/layout/header/menu/light.rtl.css') }}" rel="stylesheet"
+    <link href="{{ asset('/adminAssets/css/themes/layout/header/menu/light'.session('direction_link').'.css') }}" rel="stylesheet"
           type="text/css"/>
-    <link href="{{ asset('/adminAssets/css/themes/layout/brand/dark.rtl.css') }}" rel="stylesheet"
+    <link href="{{ asset('/adminAssets/css/themes/layout/brand/dark'.session('direction_link').'.css') }}" rel="stylesheet"
           type="text/css"/>
-    <link href="{{ asset('/adminAssets/css/themes/layout/aside/dark.rtl.css') }}" rel="stylesheet"
+    <link href="{{ asset('/adminAssets/css/themes/layout/aside/dark'.session('direction_link').'.css') }}" rel="stylesheet"
           type="text/css"/>
     <!--end::Layout Themes-->
-    <link rel="shortcut icon"  href="{{ asset('/adminAssets/media/logos/logo-blue.png') }}"/>
+    <link rel="shortcut icon" href="{{ asset('/adminAssets/media/logos/logo-blue.png') }}"/>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -100,7 +100,8 @@
 <!--end::Scrolltop-->
 
 <!--begin::Global Config(global config for global JS scripts)-->
-<script>var KTAppSettings = {"breakpoints": {"sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200},
+<script>var KTAppSettings = {
+        "breakpoints": {"sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200},
         "colors": {
             "theme": {
                 "base": {

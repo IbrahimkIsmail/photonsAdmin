@@ -16,7 +16,7 @@
                         </div>
                     </li>
                     <li class="menu-item menu-item-open menu-item-here menu-item-submenu menu-item-rel"
-                        data-menu-toggle="click" aria-haspopup="true" >
+                        data-menu-toggle="click" aria-haspopup="true">
                         <a href="{{route('home')}}" class="menu-link" target="_blank">
                             <span class="svg-icon menu-icon">
                                 <!--begin::Svg Icon | path:assets/media/svg/icons/Clothes/Briefcase.svg-->
@@ -43,7 +43,7 @@
 											<span class="svg-icon svg-icon-xl svg-icon-primary">
 												<!--begin::Svg Icon | path:assets/media/svg/icons/Code/Compiling.svg-->
 												<svg xmlns="http://www.w3.org/2000/svg"
-                                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                                                     width="24px"
                                                      height="24px" viewBox="0 0 24 24" version="1.1">
 													<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 														<rect x="0" y="0" width="24" height="24"/>
@@ -93,7 +93,6 @@
 																	<span class="svg-icon svg-icon-lg svg-icon-primary">
 																		<!--begin::Svg Icon | path:assets/media/svg/icons/Home/Library.svg-->
 																		<svg xmlns="http://www.w3.org/2000/svg"
-                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
                                                                              width="24px" height="24px"
                                                                              viewBox="0 0 24 24" version="1.1">
 																			<g stroke="none" stroke-width="1"
@@ -132,7 +131,6 @@
 																	<span class="svg-icon svg-icon-lg svg-icon-warning">
 																		<!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Write.svg-->
 																		<svg xmlns="http://www.w3.org/2000/svg"
-                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
                                                                              width="24px" height="24px"
                                                                              viewBox="0 0 24 24" version="1.1">
 																			<g stroke="none" stroke-width="1"
@@ -181,7 +179,7 @@
                 <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" aria-expanded="false">
                     <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1">
 		        				<span class="svg-icon svg-icon-xl svg-icon-primary"><!--begin::Svg Icon | path:/metronic/themes/metronic/theme/html/demo1/dist/assets/media/svg/icons/Media/Equalizer.svg--><svg
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xmlns="http://www.w3.org/2000/svg"
                                         width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"></rect>
@@ -213,7 +211,7 @@
                                class="d-block py-10 px-5 text-center bg-hover-light border-right border-bottom">
             <span class="svg-icon svg-icon-3x svg-icon-success">
               <!--begin::Svg Icon | path:/home/keenthemes/www/metronic/themes/metronic/theme/html/demo1/dist/../src/media/svg/icons/General/Settings-2.svg--><svg
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                    xmlns="http://www.w3.org/2000/svg" width="24px"
                     height="24px" viewBox="0 0 24 24" version="1.1">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"/>
@@ -232,7 +230,7 @@
                                class="d-block py-10 px-5 text-center bg-hover-light border-right border-bottom">
             <span class="svg-icon svg-icon-3x svg-icon-success">
               <!--begin::Svg Icon | path:/home/keenthemes/www/metronic/themes/metronic/theme/html/demo1/dist/../src/media/svg/icons/Shopping/Money.svg--><svg
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                    xmlns="http://www.w3.org/2000/svg" width="24px"
                     height="24px" viewBox="0 0 24 24" version="1.1">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"/>
@@ -254,13 +252,23 @@
                             <a href=""
                                class="d-block py-10 px-5 text-center bg-hover-light border-right border-bottom">
             <span class="svg-icon svg-icon-3x svg-icon-success">
-             <!--begin::Svg Icon | path:/home/keenthemes/www/metronic/themes/metronic/theme/html/demo1/dist/../src/media/svg/icons/Code/Git4.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+             <!--begin::Svg Icon | path:/home/keenthemes/www/metronic/themes/metronic/theme/html/demo1/dist/../src/media/svg/icons/Code/Git4.svg--><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"/>
-        <path d="M6,7 C7.1045695,7 8,6.1045695 8,5 C8,3.8954305 7.1045695,3 6,3 C4.8954305,3 4,3.8954305 4,5 C4,6.1045695 4.8954305,7 6,7 Z M6,9 C3.790861,9 2,7.209139 2,5 C2,2.790861 3.790861,1 6,1 C8.209139,1 10,2.790861 10,5 C10,7.209139 8.209139,9 6,9 Z" fill="#000000" fill-rule="nonzero"/>
-        <path d="M7,11.4648712 L7,17 C7,18.1045695 7.8954305,19 9,19 L15,19 L15,21 L9,21 C6.790861,21 5,19.209139 5,17 L5,8 L5,7 L7,7 L7,8 C7,9.1045695 7.8954305,10 9,10 L15,10 L15,12 L9,12 C8.27142571,12 7.58834673,11.8052114 7,11.4648712 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-        <path d="M18,22 C19.1045695,22 20,21.1045695 20,20 C20,18.8954305 19.1045695,18 18,18 C16.8954305,18 16,18.8954305 16,20 C16,21.1045695 16.8954305,22 18,22 Z M18,24 C15.790861,24 14,22.209139 14,20 C14,17.790861 15.790861,16 18,16 C20.209139,16 22,17.790861 22,20 C22,22.209139 20.209139,24 18,24 Z" fill="#000000" fill-rule="nonzero"/>
-        <path d="M18,13 C19.1045695,13 20,12.1045695 20,11 C20,9.8954305 19.1045695,9 18,9 C16.8954305,9 16,9.8954305 16,11 C16,12.1045695 16.8954305,13 18,13 Z M18,15 C15.790861,15 14,13.209139 14,11 C14,8.790861 15.790861,7 18,7 C20.209139,7 22,8.790861 22,11 C22,13.209139 20.209139,15 18,15 Z" fill="#000000" fill-rule="nonzero"/>
+        <path
+            d="M6,7 C7.1045695,7 8,6.1045695 8,5 C8,3.8954305 7.1045695,3 6,3 C4.8954305,3 4,3.8954305 4,5 C4,6.1045695 4.8954305,7 6,7 Z M6,9 C3.790861,9 2,7.209139 2,5 C2,2.790861 3.790861,1 6,1 C8.209139,1 10,2.790861 10,5 C10,7.209139 8.209139,9 6,9 Z"
+            fill="#000000" fill-rule="nonzero"/>
+        <path
+            d="M7,11.4648712 L7,17 C7,18.1045695 7.8954305,19 9,19 L15,19 L15,21 L9,21 C6.790861,21 5,19.209139 5,17 L5,8 L5,7 L7,7 L7,8 C7,9.1045695 7.8954305,10 9,10 L15,10 L15,12 L9,12 C8.27142571,12 7.58834673,11.8052114 7,11.4648712 Z"
+            fill="#000000" fill-rule="nonzero" opacity="0.3"/>
+        <path
+            d="M18,22 C19.1045695,22 20,21.1045695 20,20 C20,18.8954305 19.1045695,18 18,18 C16.8954305,18 16,18.8954305 16,20 C16,21.1045695 16.8954305,22 18,22 Z M18,24 C15.790861,24 14,22.209139 14,20 C14,17.790861 15.790861,16 18,16 C20.209139,16 22,17.790861 22,20 C22,22.209139 20.209139,24 18,24 Z"
+            fill="#000000" fill-rule="nonzero"/>
+        <path
+            d="M18,13 C19.1045695,13 20,12.1045695 20,11 C20,9.8954305 19.1045695,9 18,9 C16.8954305,9 16,9.8954305 16,11 C16,12.1045695 16.8954305,13 18,13 Z M18,15 C15.790861,15 14,13.209139 14,11 C14,8.790861 15.790861,7 18,7 C20.209139,7 22,8.790861 22,11 C22,13.209139 20.209139,15 18,15 Z"
+            fill="#000000" fill-rule="nonzero"/>
     </g>
 </svg><!--end::Svg Icon--> </span> <span
                                     class="d-block text-dark-75 font-weight-bold font-size-h6 mt-2 mb-1">Walkthroughs</span>
@@ -272,11 +280,15 @@
                             <a href=""
                                class="d-block py-10 px-5 text-center bg-hover-light border-right border-bottom">
             <span class="svg-icon svg-icon-3x svg-icon-success">
-             <!--begin::Svg Icon | path:/home/keenthemes/www/metronic/themes/metronic/theme/html/demo1/dist/../src/media/svg/icons/Code/Question-circle.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+             <!--begin::Svg Icon | path:/home/keenthemes/www/metronic/themes/metronic/theme/html/demo1/dist/../src/media/svg/icons/Code/Question-circle.svg--><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"/>
         <circle fill="#000000" opacity="0.3" cx="12" cy="12" r="10"/>
-        <path d="M12,16 C12.5522847,16 13,16.4477153 13,17 C13,17.5522847 12.5522847,18 12,18 C11.4477153,18 11,17.5522847 11,17 C11,16.4477153 11.4477153,16 12,16 Z M10.591,14.868 L10.591,13.209 L11.851,13.209 C13.447,13.209 14.602,11.991 14.602,10.395 C14.602,8.799 13.447,7.581 11.851,7.581 C10.234,7.581 9.121,8.799 9.121,10.395 L7.336,10.395 C7.336,7.875 9.31,5.922 11.851,5.922 C14.392,5.922 16.387,7.875 16.387,10.395 C16.387,12.915 14.392,14.868 11.851,14.868 L10.591,14.868 Z" fill="#000000"/>
+        <path
+            d="M12,16 C12.5522847,16 13,16.4477153 13,17 C13,17.5522847 12.5522847,18 12,18 C11.4477153,18 11,17.5522847 11,17 C11,16.4477153 11.4477153,16 12,16 Z M10.591,14.868 L10.591,13.209 L11.851,13.209 C13.447,13.209 14.602,11.991 14.602,10.395 C14.602,8.799 13.447,7.581 11.851,7.581 C10.234,7.581 9.121,8.799 9.121,10.395 L7.336,10.395 C7.336,7.875 9.31,5.922 11.851,5.922 C14.392,5.922 16.387,7.875 16.387,10.395 C16.387,12.915 14.392,14.868 11.851,14.868 L10.591,14.868 Z"
+            fill="#000000"/>
     </g>
 </svg><!--end::Svg Icon--> </span> <span
                                     class="d-block text-dark-75 font-weight-bold font-size-h6 mt-2 mb-1">FAQ</span>
@@ -306,29 +318,29 @@
                     <!--begin::Nav-->
                     <ul class="navi navi-hover py-4">
                         <!--begin::Item-->
-{{--                        <li class="navi-item {{currentLanguage() == 'ar'?'active':''}}">--}}
-{{--                            <a href="{{url('/locale/ar')}}" class="navi-link">--}}
-{{--													<span class="symbol symbol-20 mr-3">--}}
-{{--														<img class="rounded-circle"--}}
-{{--                                                             src="{{asset('adminAssets/media/flags/133-saudi-arabia.svg')}}"--}}
-{{--                                                             alt=""/>--}}
-{{--													</span>--}}
-{{--                                <span class="navi-text">{{admin('Arabic')}}</span>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <!--end::Item-->--}}
-{{--                        <!--begin::Item-->--}}
-{{--                        <li class="navi-item {{currentLanguage() == 'en'?'active':''}}">--}}
-{{--                            <a href="{{url('/locale/en')}}" class="navi-link">--}}
-{{--													<span class="symbol symbol-20 mr-3">--}}
-{{--														<img class="rounded-circle"--}}
-{{--                                                             src="{{asset('adminAssets/media/flags/226-united-states.svg')}}"--}}
-{{--                                                             alt=""/>--}}
-{{--													</span>--}}
-{{--                                <span class="navi-text">{{admin('English')}}</span>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-                        <!--end::Item-->
+                    {{--                        <li class="navi-item {{currentLanguage() == 'ar'?'active':''}}">--}}
+                    {{--                            <a href="{{url('/locale/ar')}}" class="navi-link">--}}
+                    {{--													<span class="symbol symbol-20 mr-3">--}}
+                    {{--														<img class="rounded-circle"--}}
+                    {{--                                                             src="{{asset('adminAssets/media/flags/133-saudi-arabia.svg')}}"--}}
+                    {{--                                                             alt=""/>--}}
+                    {{--													</span>--}}
+                    {{--                                <span class="navi-text">{{admin('Arabic')}}</span>--}}
+                    {{--                            </a>--}}
+                    {{--                        </li>--}}
+                    {{--                        <!--end::Item-->--}}
+                    {{--                        <!--begin::Item-->--}}
+                    {{--                        <li class="navi-item {{currentLanguage() == 'en'?'active':''}}">--}}
+                    {{--                            <a href="{{url('/locale/en')}}" class="navi-link">--}}
+                    {{--													<span class="symbol symbol-20 mr-3">--}}
+                    {{--														<img class="rounded-circle"--}}
+                    {{--                                                             src="{{asset('adminAssets/media/flags/226-united-states.svg')}}"--}}
+                    {{--                                                             alt=""/>--}}
+                    {{--													</span>--}}
+                    {{--                                <span class="navi-text">{{admin('English')}}</span>--}}
+                    {{--                            </a>--}}
+                    {{--                        </li>--}}
+                    <!--end::Item-->
                     </ul>
                     <!--end::Nav-->
                 </div>
@@ -343,8 +355,23 @@
                                     class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi</span>
                     <span
                         class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{Auth::guard('admin')->user()->name}}</span>
-                    <img class="rounded-circle" alt="Pic" width="35" height="35" src=""/>
+                    <img class="rounded-circle" alt="Pic" width="35" height="35"
+                         src="{{asset('adminAssets/media/users/100_1.jpg')}}"/>
 
+                </div>
+            </div>
+            <div class="topbar-item">
+                <div class="btn btn-icon w-auto btn-clean d-flex align-items-center btn-lg px-2"
+                     id="kt_quick_user_toggle">
+                    @if(session('lang')== 'en')
+                        <a href="{{url('admin/lang/ar')}}" class="text-dark-50
+                             font-weight-bolder
+                             font-size-base d-none d-md-inline mr-3">بالعربي</a>
+                    @else
+                        <a href="{{url('admin/lang/en')}}" class="text-dark-50
+                             font-weight-bolder
+                             font-size-base d-none d-md-inline mr-3">english</a>
+                    @endif
                 </div>
             </div>
             <!--end::User-->
@@ -369,7 +396,7 @@
         <!--begin::Header-->
         <div class="d-flex align-items-center mt-5">
             <div class="symbol symbol-100 mr-5">
-{{--                <div class="symbol-label" style="background-image:url({{Auth::user()->profile_image}})"></div>--}}
+                {{--                <div class="symbol-label" style="background-image:url({{Auth::user()->profile_image}})"></div>--}}
                 <i class="symbol-badge bg-success"></i>
             </div>
             <div class="d-flex flex-column">
@@ -382,7 +409,7 @@
 										<span class="svg-icon svg-icon-lg svg-icon-primary">
 											<!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Mail-notification.svg-->
 											<svg xmlns="http://www.w3.org/2000/svg"
-                                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                                 width="24px" height="24px"
                                                  viewBox="0 0 24 24" version="1.1">
 												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 													<rect x="0" y="0" width="24" height="24"/>
@@ -395,7 +422,8 @@
                                             <!--end::Svg Icon-->
 										</span>
 									</span>
-									<span class="navi-text text-muted text-hover-primary">{{Auth::guard('admin')->user()->email}}</span>
+									<span
+                                        class="navi-text text-muted text-hover-primary">{{Auth::guard('admin')->user()->email}}</span>
 								</span>
                     </a>
                     <form id="logout-form" action="{{ route('admin.logout') }}" method="POST"
@@ -422,7 +450,7 @@
 									<span class="svg-icon svg-icon-md svg-icon-success">
 										<!--begin::Svg Icon | path:assets/media/svg/icons/General/Notification2.svg-->
 										<svg xmlns="http://www.w3.org/2000/svg"
-                                             xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                             width="24px" height="24px"
                                              viewBox="0 0 24 24" version="1.1">
 											<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 												<rect x="0" y="0" width="24" height="24"/>
@@ -581,6 +609,8 @@
     {{--            <!--end::Item-->--}}
     {{--        </div>--}}
     <!--end::Notifications-->
+
+
     </div>
     <!--end::Content-->
 </div>

@@ -1,10 +1,13 @@
 <?php
 
+use App\Http\Controllers\Admin\HomeController;
 use Illuminate\Support\Facades\Route;
 
 
 // Dashboard
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('blank', [HomeController::class, 'blank']);
+Route::get('lang/{lang}', [HomeController::class, 'changeLang']);
 
 // Login
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
